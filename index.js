@@ -6,7 +6,7 @@ const items = $("div");
 items.css('display','none');
 
 
-// using delay to differiate the items
+// using delay to differentiate the items
 // using fadeIn() in jQeury to implement the fade in effect
   items.each(function(index){
     $(this).delay(index*400).fadeIn(500);
